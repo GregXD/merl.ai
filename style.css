@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #3b5dad; /* Dark background */
+    color: #c0c0c0; /* Light grey text for contrast */
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFFFFF; /* Adjust based on your color scheme for readability */
+    z-index: 1; /* Ensure the text appears above the particles */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #18233c; /* Slightly lighter dark shade for header */
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #007bff; /* Blue accent for the logo */
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #c0c0c0; /* Light grey text for navigation */
+}
+
+nav a:hover {
+    color: #007bff; /* Blue accent on hover */
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #1a1a1a; /* Consistent dark shade for hero section */
+}
+
+.coming-soon, .keep-updated {
+    padding: 20px;
+    text-align: center;
+}
+
+.features li {
+    margin: 10px 0;
+    color: #c0c0c0; /* Ensure features list is also in light grey for contrast */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a; /* Footer matches the header and hero background */
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #333;
+    background-color: #262626; /* Dark input field for a futuristic look */
+    color: #c0c0c0; /* Light text color for contrast */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue button for a pop of color */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover for interactive feel */
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #18233c; /* Your background color */
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: -1; /* Ensure it stays in the background */
+}
