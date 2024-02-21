@@ -97,3 +97,23 @@ button:hover {
     background-position: 50% 50%;
     z-index: -1; /* Ensure it stays in the background */
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
